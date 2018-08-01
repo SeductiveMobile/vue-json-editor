@@ -14,4 +14,6 @@ const install = function(Vue) {
     Vue.component('v-json-editor',JsonEditor );
 };
 
+//test
+
 export default {install}
