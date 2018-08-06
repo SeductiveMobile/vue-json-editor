@@ -147,7 +147,6 @@
         margin: 2px 0;
         padding: 1px 1px;
         border: 1px solid transparent;
-        border-radius: 9px;
         box-shadow: 0;
         background-color: transparent;
         transition-property: border, background-color;
@@ -158,7 +157,8 @@
     div.input {
         margin: 0 3px;
         border: 0px solid transparent;
-        border-radius: 9px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     div.input_ctl:hover {
@@ -170,7 +170,6 @@
         padding: 0 10px;
         outline: none;
         border: 0px solid transparent;
-        border-radius: 9px;
         background-color: transparent;
         color: #2E7D32;
         transition: width, background-color 0.15s linear;
